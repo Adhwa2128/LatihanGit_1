@@ -1,0 +1,10 @@
+rencana pengembangan saya kedepan adalah membuat web development berupa website keahlian multimedia. 
+Target audiens : 
+- orang tua atau murid yang akan memasuki kelas keahlian multimedia, yang tertarik akan Fotografi,
+Videografi, dan desain
+Tujuan: 
+- Membuat website yang menampilkan keahlian multimedia, seperti fotografi, ilustrasi, desain grafis, dan videografi, serta
+kelebihan dari jurusan multimedia
+Pemeliharaan dan pembaruan :
+- Kumpulkan feedback dari pengguna dan lakukan perbaikan yang diperlukan.
+- Secara rutin tambahkan konten baru untuk menarik pengunjung kembali.
