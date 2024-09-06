@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFDC7F;
+    padding: 15px 0;
+}
+
+header .logo {
+    width: 120px;
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bold;
+}
+header .nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+header .nav .nav-link:hover {
+    color: #fff;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Services Section */
+.service-card-earbuds {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    background-color: #ccc;
+}
+
+.service-card-gadget {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    background-color: #FFDC7F;
+}
+
+.service-card-laptop {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    background-color: #555;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+card-img-top{
+    padding: 50%;
+}
+.card-body h5 {
+    font-weight: bold;
+}
+
+.card-body .highlight {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.btn-primary {
+    background-color:#141414 ;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn-dark {
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.row i {
+    color: #0275d8;
+}
+
+.row h5 {
+    color: #202020;
+    font-weight: bold;
+}
+
+span {
+    font-size: xx-large;
+}
+
+.about-us-section {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.218), rgb(22, 50, 91)), url('https://images.unsplash.com/photo-1530099486328-e021101a494a?q=80&w=1847&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #333;
+}
+.text-about{
+    color: #fff;
+}
+.about-us-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #16325b;
+}
+
+.about-us-section p {
+    font-size: 1.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Contact Form */
+.form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border: 1px solid #ccc;
+}
+
+form .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .services .img-fluid {
+        width: 80px;
+        height: 80px;
+    }
+
+    .services h3 {
+        font-size: 1.1rem;
+    }
+}
